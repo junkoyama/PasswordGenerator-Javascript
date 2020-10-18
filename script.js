@@ -1,17 +1,3 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
-// Start of password generator code 
-
 // Array of special characters to be included in password
 var specialCharacters = [
     '@',
@@ -101,6 +87,23 @@ var upperCasedCharacters = [
   'Y',
   'Z'
 ];
+
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
+// Start of password generator code 
+
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
