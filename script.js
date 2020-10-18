@@ -101,9 +101,15 @@ const upperCasedCharS = [
 
 // Start of Generator code
 function generatePassword () {
-  let passLength = prompt('Enter the length of your password (Min: 8 and Max: 128)')
-    if (passLength < 8 || passLength > 128) {
+  let passLength = parseInt(prompt('Enter the length of your password (Min: 8 and Max: 128)'));
+    if (passLength < 8 || passLength > 128 || isNaN(+passLength)) {
       alert('ERROR! Your password length does not meet the minimum of 8 characters and maximum of 128 characters. Please try again.')
+      return;
+    } else {
+      let confirmSpecialChar = confirm("Do you want special characters? Click 'OK' for Yes or 'Cancel' for No");
+      let confirmLowerCase = confirm("Do you want lower case characters? Click 'OK' for Yes or 'Cancel' for No");
+      let confirmUpperCase = confirm("Do you want upper case characters? Click 'OK' for Yes or 'Cancel' for No");
+      let confirmNumChar = confirm("Do you want numeric characters? Click 'OK' for Yes or 'Cancel' for No");
       return;
     }
 }
