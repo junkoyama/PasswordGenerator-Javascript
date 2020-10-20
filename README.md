@@ -1,4 +1,6 @@
 
+Live URL of the deployed application --> https://junkoyama.github.io/PasswordGenerator-Javascript/
+
 My learnings from this week's homework assignment: 
 
 
