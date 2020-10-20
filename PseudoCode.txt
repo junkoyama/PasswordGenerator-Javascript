@@ -1,0 +1,10 @@
+// generate password button
+// prompt length of password
+	// set min 8 and max of 128
+	// give alert if it does meet this specification
+// prompt if want special characters
+// prompt if want lower case 
+// prompt if want upper case 
+// prompt if want special characters
+// generate password 
+// displayed password in either alert message or in the display box
