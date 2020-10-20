@@ -102,7 +102,8 @@ const upperCasedCharS = [
 // Start of Generator code
 function generatePassword () {
   let passLength = parseInt(prompt('Enter the length of your password (Min: 8 and Max: 128)'));
-    if (passLength < 8 || passLength > 128 || isNaN(+passLength)) {
+    if (passLength < 8 || passLength > 128 || isNaN(+passLength))
+    {
       alert('ERROR! Your password length does not meet the minimum of 8 and maximum of 128 numeric characters. Please try again.')
       return;
     }
@@ -111,11 +112,29 @@ function generatePassword () {
       let confirmUpperCase = confirm("Do you want upper case characters? Click 'OK' for Yes or 'Cancel' for No");
       let confirmNumChar = confirm("Do you want numeric characters? Click 'OK' for Yes or 'Cancel' for No");
     
-      if ( !confirmSpecialChar && !confirmLowerCase && !confirmUpperCase && !confirmNumChar) {
+      if ( !confirmSpecialChar && !confirmLowerCase && !confirmUpperCase && !confirmNumChar)
+      {
         alert("Please try again. You must select at least one password criteria");
-        return;
+        
+     
       }
 
+      if (confirmSpecialChar)
+      {
+    
+      }
+      if (confirmLowerCase) 
+      {
+
+      }
+      if (confirmUpperCase)
+      { 
+
+      }
+      if (confirmNumChar)
+      { 
+
+      }
 }
 
 // Add event listener to generate button
