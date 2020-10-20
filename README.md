@@ -3,6 +3,8 @@ Live URL of the deployed application --> https://junkoyama.github.io/PasswordGen
 
 My learnings from this week's homework assignment: 
 
+This assignment truly challenged me. It taught me how to take multiple arrays and use prompts to confirm which arrays to select characters from. This homework taught me to breakdown my pseudo code very specifically so that I was not missing an if statement to the function. For example: a BCS Learning Assistant helped me point to the direction that I needed to include if true statements for each prompt to generate the random code. W3 schools, Developer Mozilla and Stack Overflow were great resources to help me with this assignment.
+
 
 -- Below are the instructor's guide to the homework assignment--
 
